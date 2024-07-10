@@ -59,7 +59,7 @@
   isHome: false,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2024-07-10 17:06:38',
+  postUpdate: '2024-07-10 17:50:06',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -408,7 +408,7 @@ queueMicrotask(() => {
   const initWaline = () => {
     const waline = Waline.init(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'https://vercel.com/sssstarrrs-projects/hexo/Bh2ms22qQ496XWcsGebK7CSrWzPp',
+      serverURL: 'https://hexo-rose-seven.vercel.app/',
       pageview: true,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
@@ -475,7 +475,7 @@ queueMicrotask(() => {
 
   const getComment = async () => {
     try {
-      const res = await fetch('https://vercel.com/sssstarrrs-projects/hexo/Bh2ms22qQ496XWcsGebK7CSrWzPp/api/comment?type=recent&count=6', { method: 'GET' })
+      const res = await fetch('https://hexo-rose-seven.vercel.app/api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
       const walineArray = result.data.map(e => {
         return {
