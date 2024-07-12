@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>安知鱼主题音乐胶囊相关问题</title>
+      <link href="/2024/07/12/%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98%E9%9F%B3%E4%B9%90%E8%83%B6%E5%9B%8A%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/"/>
+      <url>/2024/07/12/%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98%E9%9F%B3%E4%B9%90%E8%83%B6%E5%9B%8A%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="meting-js-无法解析-QQ-音乐和酷狗音乐"><a href="#meting-js-无法解析-QQ-音乐和酷狗音乐" class="headerlink" title="meting.js 无法解析 QQ 音乐和酷狗音乐"></a>meting.js 无法解析 QQ 音乐和酷狗音乐</h2><p>加一个 aplayer 可以在文章里添加播放网易云，qq 音乐，酷狗的歌，网上最多的方法就是用 meting,js ，但我试过只能解析网易云，QQ 和酷狗好像不行，有说是因为 meting api 的问题，但我换了几个 api 测试一样不行，QQ 音乐只能读取封面，播不了，酷狗直接加载不出来播放器。</p><ul><li>好像我发现的是 最新的QQ音乐web歌单需要登录QQ才能播放 可能是这个原因 狗tx</li><li>搜了下 issues ,用<br><code>&lt;script&gt; // 自定义 meting_api let meting_api=&#39;https://api.injahow.cn/meting/?server=:server&amp;type=:type&amp;id=:id&amp;auth=:auth&amp;r=:r&#39;; &lt;/script&gt;</code><br>然后type 用playlist 自己创建的歌单 能用了</li></ul><h2 id="安知鱼主题解决"><a href="#安知鱼主题解决" class="headerlink" title="安知鱼主题解决"></a>安知鱼主题解决</h2><ol><li>在主题配置文件的option中的meting_api中添加<a href="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r">https://api.injahow.cn/meting/?server=:server&amp;type=:type&amp;id=:id&amp;auth=:auth&amp;r=:r</a></li><li>自建meting api 参考<a href="https://github.com/metowolf/Meting">https://github.com/metowolf/Meting</a></li></ol><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>github issue <a href="https://github.com/metowolf/MetingJS/issues">https://github.com/metowolf/MetingJS/issues</a><br><a href="https://github.com/metowolf/MetingJS/issues">https://github.com/metowolf/MetingJS/issues</a><br><a href="https://github.com/metowolf/Meting">https://github.com/metowolf/Meting</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> aplayer </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>docker常用命令</title>
+      <link href="/2024/07/12/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2024/07/12/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="docker常用命令"><a href="#docker常用命令" class="headerlink" title="docker常用命令"></a>docker常用命令</h2><h3 id="生命周期相关"><a href="#生命周期相关" class="headerlink" title="生命周期相关"></a>生命周期相关</h3><ol><li>docker run 创建并启动一个容器</li><li>docker stop 停止一个运行中的容器</li><li>docker start 启动一个已经存在的容器</li><li>docker restart 重启一个运行中的容器</li><li>docker rm 删除一个已停止的容器</li><li>docker ps 列出当前所有运行的容器</li><li>docker ps -a 列出所有容器（包括停止的）</li></ol><h3 id="镜像相关"><a href="#镜像相关" class="headerlink" title="镜像相关"></a>镜像相关</h3><ol><li>docker build 从 Dockerfile 构建一个新的镜像。</li><li>docker pull 从 Docker Hub 或其他仓库拉取一个镜像。</li><li>docker push 将本地镜像推送到远程仓库（需要先登录）。</li><li>docker images 列出本地所有镜像。</li><li>docker rmi 删除一个本地镜像。</li></ol><h3 id="容器相关"><a href="#容器相关" class="headerlink" title="容器相关"></a>容器相关</h3><ol><li>docker exec 在一个运行中的容器中执行命令。</li><li>docker logs 查看容器的日志。</li><li>docker inspect 查看容器的详细信息。</li><li>docker cp 在本地文件系统和容器之间复制文件。</li></ol><h3 id="网络相关"><a href="#网络相关" class="headerlink" title="网络相关"></a>网络相关</h3><ol><li>docker network ls 列出所有 Docker 网络。</li><li>docker network create 创建一个新的网络。</li><li>docker network inspect 查看网络的详细信息。</li><li>docker network connect 将一个容器连接到一个网络。</li><li>docker network disconnect 将一个容器从一个网络断开。</li></ol><h3 id="存储卷相关"><a href="#存储卷相关" class="headerlink" title="存储卷相关"></a>存储卷相关</h3><ol><li>docker volume ls 列出所有存储卷。</li><li>docker volume create 创建一个新的存储卷。</li><li>docker volume inspect 查看存储卷的详细信息。</li><li>docker volume rm 删除一个存储卷。</li><li>docker run -d –name mynginx -v myvolume:&#x2F;data nginx<br>挂载存储卷到容器 在创建容器时，将存储卷挂载到容器中。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bg</title>
       <link href="/2024/07/09/bg/"/>
       <url>/2024/07/09/bg/</url>
