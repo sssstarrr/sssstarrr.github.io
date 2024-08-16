@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2024/08/14/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
-      <url>/2024/08/14/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
-      
-        <content type="html"><![CDATA[<h2 id="一-函数、极限、连续"><a href="#一-函数、极限、连续" class="headerlink" title="一. 函数、极限、连续"></a>一. 函数、极限、连续</h2><h3 id="1-函数"><a href="#1-函数" class="headerlink" title="1. 函数"></a>1. 函数</h3><ol><li>取整函数的基本不等式:x-1&lt;[x]≤x.</li><li>(1) 在同一直角坐标系中,y&#x3D;f(x)和x&#x3D;$f^{-1}$(y)的图形重合,y&#x3D;f(x)和y&#x3D;$f^{-1}(x)$ 的图形关于直线y-x对称.<br>(2) $f^{-1}(f(x))&#x3D;x,f(f^{-1}(x))&#x3D;x$</li><li>(1) 常见奇函数：sinx,tanx,arcsinx,arctanx,$ln\frac{1-x}{1+x}$,$ln(x+\sqrt{1+x^2})$,$\frac{e^x-1}{e^x+1}$,f(x)-f(-x)<br>(2) 常见偶函数：$x^2$,|x|,cosx,f(x)+f(-x)</li><li>设f(x)可导,则<br>① f(x)是奇函数→f’(x)是偶函数;<br>②f(x)是偶函数→f’x)是奇函数<br>连续的奇函数其原函数都是偶函数:<br>连续的偶函数其原函数中有且仅有一个是奇函数</li><li>设f(x)连续<br>(1)若f(x)是奇函数,则$\int_{0}^{x}{f(t)}dt$是偶函数<br>(2)若f(x)是偶函数,则$\int_{0}^{x}{f(t)}dt$是奇函数</li><li>若f(x)以T为周期,则f(ax+b)以$\frac{T}{|a|}$$(a\neq0)$为周期<br>判定<br>(1)利用定义;<br>(2)可导的周期函数其导函数为周期函数;<br>(3)周期函数的原函数不一定是周期函数(如1+cosx)</li><li>(1)设f(x)连续且以T为周期,则F(x)&#x3D;$\int_{0}^{x}{f(t)}dt$是以T为周期的周期函数$\Leftrightarrow$ $\int_{0}^{T}{f(x)}dx$&#x3D; 0.<br>(2)周期函数的原函数是周期函数的充要条件是其在一个周期上的积分为零</li><li>$|sinx|\leq1,|cosx|\leq1,|arcsinx|\leq\frac{\pi}{2},|arctanx|&lt;\frac{\pi}{2},|arccosx|\leq{\pi}$<br>判定：(1)f(x)在[a,b]上连续→f(x)在[a,b]上有界;<br>(2)f(x)在(a,b)上连续,且$f(a^+)$和$f(b^-)$存在→f(x)在(a,b)上有界;(a,b改为∞仍成立)<br>(3)f(x)在区间I(有限)上有界→f(x)在I上有界.</li></ol><h3 id="2-极限"><a href="#2-极限" class="headerlink" title="2. 极限"></a>2. 极限</h3><ol><li><img src="https://ypy.ssf-blog.icu/article/699.png" alt="image-20240814103949650" style="zoom: 50%;" align="left"/></li><li><img src="https://ypy.ssf-blog.icu/article/063.png" alt="image-20240814104642019" style="zoom:50%;" /><img src="https://ypy.ssf-blog.icu/article/533.png" alt="image-20240814104728508" style="zoom:50%;" /></li><li><img src="https://ypy.ssf-blog.icu/article/0814105132.png" alt="image-20240814105132795" align="left" style="zoom:50%;" /></li><li><img src="https://ypy.ssf-blog.icu/article/08/14/10/53/27.png" alt="image-20240814105326995" style="zoom:50%;" align="left"/></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-105936.png" alt="image-20240814105936639" style="zoom:50%;" align="left"/></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-110030.png" alt="image-20240814110030010" style="zoom:50%;" align="left"/></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-110107.png" alt="image-20240814110107095" align="left" style="zoom:50%;" /></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-111605.png" alt="image-20240814111604978" style="zoom:50%;" align="left"/></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-111643.png" alt="image-20240814111643556" style="zoom:50%;" align="left"/></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-111711.png" alt="image-20240814111711191" style="zoom:50%;" align="left"/></li><li>7种未定型<img src="https://ypy.ssf-blog.icu/article/08-14-112013.png" alt="image-20240814112013338" style="zoom:50%;" /></li><li><img src="https://ypy.ssf-blog.icu/article/08-14-112049.png" alt="image-20240814112048993" style="zoom:50%;" align="left"/></li></ol>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>择校</title>
       <link href="/2024/07/13/%E6%8B%A9%E6%A0%A1/"/>
       <url>/2024/07/13/%E6%8B%A9%E6%A0%A1/</url>
